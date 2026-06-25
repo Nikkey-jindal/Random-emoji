@@ -12,7 +12,7 @@ body{
     margin-top: 0px;
     background-image: url('https://images.openai.com/static-rsc-4/G9rxCqJMjncD3C0xyzBSsn_lugeHq4JiAhB7oPp7NwGgZOR5jcqLCionABHNakXPIff8tyu1OSaoY4ghuqtB4QlyunHzM6H7qVuwoTkklhToR47lDeTynZRMlsqY2ROWMX5zwAJ4E5VCr4K8M4XEQYihdsWcqpc33gRl6sZuwuFEEyBFwobXlDjZ19nFXw-n?purpose=fullsize');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .main{
     display: flex;
