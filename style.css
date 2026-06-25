@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Fredoka', sans-serif;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: 0px;
+    background-image: url('https://images.openai.com/static-rsc-4/G9rxCqJMjncD3C0xyzBSsn_lugeHq4JiAhB7oPp7NwGgZOR5jcqLCionABHNakXPIff8tyu1OSaoY4ghuqtB4QlyunHzM6H7qVuwoTkklhToR47lDeTynZRMlsqY2ROWMX5zwAJ4E5VCr4K8M4XEQYihdsWcqpc33gRl6sZuwuFEEyBFwobXlDjZ19nFXw-n?purpose=fullsize');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;;
+    width: 500px;
+    height: 80vh;
+    background-color:antiquewhite;
+    border-radius: 20%;
+}
+.firstdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.head{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
+}
+.seconddiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 80%;
+    height: 50vh;
+    background-color: darkgoldenrod;
+    border-radius: 50px;
+}
+#emoji{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    /* background-color: cadetblue; */
+    font-size: 200px;
+
+}
+@media (max-width: 600px) {
+    .main{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #emoji{
+        width: 200px;
+        height: 200px;
+        font-size: 120px;
+    }
+
+    .head{
+        font-size: 1.5rem;
+    }
+}
