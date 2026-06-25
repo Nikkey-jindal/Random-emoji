@@ -59,7 +59,7 @@ body{
 
 }
 @media (max-width: 600px) {
-    .body{
+    body{
         min-height:100dvh;
          background-repeat: no-repeat;
     background-size: cover;
